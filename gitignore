@@ -1,0 +1,38 @@
+# Cadence Virtuoso / Spectre working files
+*.cdslck
+*.cdslck.*
+.cdslck*
+CDS.log*
+*.log
+.cadence/
+.simrc
+.cdsenv
+.cdsinit
+
+# Simulation output (huge, regenerable)
+simulation/
+psf/
+*.raw
+*.fsdb
+*.tran.tran
+*.dc
+*.ac
+*.stb
+*.ahdlSimDB/
+
+# Cadence library databases (not human-readable; export netlists and screenshots instead)
+project_learning/
+cds.lib
+
+# PDK files are licensed. Never commit them.
+gpdk090/
+GPDK090/
+models/
+*.pdk
+
+# Editor / OS junk
+*.swp
+*.bak
+*~
+.DS_Store
+Thumbs.db
